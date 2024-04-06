@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.listItem p {
+  margin: 0;
+}
